@@ -33,17 +33,24 @@ namespace ConsoleApplication2
             //Console.WriteLine(succ);
             #endregion
             #region 隐式转换
-            string a;
-            a = 10 + "2a0";
-            Console.WriteLine(a);  //隐式转换
-            double z = 3.15;
-            int x = 2;
-            double y = x + z;
-            Console.WriteLine(y);
-
+            //string a;
+            //a = 10 + "2a0";
+            //Console.WriteLine(a);  //隐式转换
+            //double z = 3.15;
+            //int x = 2;
+            //double y = x + z;
+            //Console.WriteLine(y);
             #endregion
-
-
+            #region 显式转换
+            int a = 1;
+            double b = 3.14159;
+            int c = (int)(a + b);  //数据类型转换  显式转换
+            Console.WriteLine(c);
+            int d = 987;
+            string e = d.ToString();//ToString()方法
+            Console.WriteLine(e);
+            #endregion
+           
 
         }
     }
