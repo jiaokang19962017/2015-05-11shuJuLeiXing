@@ -84,7 +84,7 @@ namespace ConsoleApplication2
             #region 作业
             Console.WriteLine("请输入姓名");
             string name = Console.ReadLine();
-            Console.WriteLine("请输入姓名");
+            Console.WriteLine("请输入年龄");
             int age = int.Parse(Console.ReadLine());
             Console.WriteLine("请输入性别");
             char sex = Convert.ToChar(Console.ReadLine());
