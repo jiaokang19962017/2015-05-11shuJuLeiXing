@@ -19,9 +19,9 @@ namespace ConsoleApplication2
             #endregion
             #region &&和||
             //int x = 2, y = 5;
-            //Boolean z = (x > 0) || (y < 8);//||都必须符合条件
+            //Boolean z = (x > 0) || (y < 8);//只有一个符合条件
             //Console.WriteLine("z={0}", z);
-            //z = (x == 0) && (y < 8);//&&只有一个符合条件
+            //z = (x == 0) && (y < 8);//&&都必须符合条件
             //Console.WriteLine("z={0}",z);
             //z = !(x == 2);//!不等于
             //Console.WriteLine("z={0}", z);
@@ -82,15 +82,57 @@ namespace ConsoleApplication2
             // #endregion
             #endregion
             #region 作业
-            Console.WriteLine("请输入姓名");
-            string name = Console.ReadLine();
-            Console.WriteLine("请输入年龄");
-            int age = int.Parse(Console.ReadLine());
-            Console.WriteLine("请输入性别");
-            char sex = Convert.ToChar(Console.ReadLine());
-            Console.WriteLine("请输入成绩");
-            double score = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("姓名是:{0},年龄是:{1},性别是:{2},成绩是:{3}", name, age, sex, score);
+            //string name = "焦康";
+            //int age = 21;
+            //char sex = '男';
+            //double score = 100;
+            //Console.WriteLine("姓名是:{0},年龄是:{1},性别是:{2},成绩是:{3}", name, age, sex, score);
+
+
+            //Console.WriteLine("请输入姓名");
+            //string name = Console.ReadLine();
+            //Console.WriteLine("请输入年龄");
+            //int age = int.Parse(Console.ReadLine());
+            //Console.WriteLine("请输入性别");
+            //char sex = Convert.ToChar(Console.ReadLine());
+            //Console.WriteLine("请输入成绩");
+            //double score = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("姓名是:{0},年龄是:{1},性别是:{2},成绩是:{3}", name, age, sex, score);
+
+
+            //int a = 10,b=20,temp;
+            //temp = a;
+            //a = b;
+            //b = temp;
+            //Console.WriteLine("交换后a={0},b={1}",a,b);
+
+
+            //const double pi = 3.1415926;
+            //Console.WriteLine("请输入圆的半径");
+            //double r = Convert.ToDouble(Console.ReadLine());
+            //double s = pi * (r * r);
+            //Console.WriteLine("圆的面积为:{0}",s);
+
+
+            //int s = 208653;
+            //int day = s / (24 * 60 * 60);
+            //int hour = s % (24 * 60 * 60)/(60 * 60);
+            //int minute = s % (24 * 60 * 60) % (60 * 60) / 60;
+            //int second = s % (24 * 60 * 60) % (60 * 60) % 60;
+            //Console.WriteLine("{0}天{1}小时{2}分钟{3}秒",day,hour,minute,second);
+
+
+            //int a, b = 10;
+            //a = b++;
+            //Console.WriteLine(a);//11
+            //a = ++b;
+            //Console.WriteLine(b);//12
+
+
+            int a = 1, b = 1;
+            bool bb = false;
+            bool aa = (a != 1 && (bb = (b == 0 ? false : true)));
+            Console.WriteLine("{0},{1}", aa, bb);
             #endregion
         }
     }
