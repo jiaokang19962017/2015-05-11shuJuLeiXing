@@ -33,7 +33,7 @@ namespace ConsoleApplication2
             //Console.WriteLine(succ);
             #endregion
             #region 隐式转换
-            string a, b;
+            string a;
             a = 10 + "2a0";
             Console.WriteLine(a);  //隐式转换
             double z = 3.15;
