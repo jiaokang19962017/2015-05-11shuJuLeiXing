@@ -15,6 +15,7 @@
             float x1 = 2.1234f;
             decimal x2 = 2.1234m;
             int u, v = 100, w;//定义uvw为整形变量,把v的初始值设为100;
+            const double pi = 3.14;//声明常量+const,const为常量关键字
         }
     }
 }
