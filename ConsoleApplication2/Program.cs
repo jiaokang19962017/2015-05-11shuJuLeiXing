@@ -55,11 +55,12 @@ namespace ConsoleApplication2
             //int h = Convert.ToInt32(g);  //这个方法可以很多类型转换
             #endregion
             #region 类型转换
-            string s1 = "123";
-            string s2 = "90.8";
-            int s3 = int.Parse(s1);
+            string s1 = "123.9999";
+            string s2 = "908";
+           // int s3 = int.Parse(s1);
             double s4 = Convert.ToDouble(s2);
-            Console.WriteLine("{0}---{1}", s3, s4);
+            float s5 = Convert.ToSingle(s1);
+            Console.WriteLine("{0}---{1}---", s4,s5);
             int k = 12;
             double d = 12.56;
             string k1 = k.ToString();
