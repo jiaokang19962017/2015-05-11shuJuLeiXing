@@ -27,11 +27,23 @@ namespace ConsoleApplication2
             //Console.WriteLine("z={0}", z);
             #endregion
             #region 三元运算符
-            Console.WriteLine("请输入成绩");
-            int score = int.Parse(Console.ReadLine());
-            string succ = score >= 60 ? "及格" : "不及格";//三元运算符
-            Console.WriteLine(succ);
+            //Console.WriteLine("请输入成绩");
+            //int score = int.Parse(Console.ReadLine());
+            //string succ = score >= 60 ? "及格" : "不及格";//三元运算符
+            //Console.WriteLine(succ);
             #endregion
+            #region 隐式转换
+            string a, b;
+            a = 10 + "2a0";
+            Console.WriteLine(a);  //隐式转换
+            double z = 3.15;
+            int x = 2;
+            double y = x + z;
+            Console.WriteLine(y);
+
+            #endregion
+
+
 
         }
     }
