@@ -25,12 +25,25 @@ namespace ConsoleApplication2
             //Console.WriteLine("z={0}",z);
             //z = !(x == 2);//!不等于
             //Console.WriteLine("z={0}", z);
+    
             #endregion
             #region 三元运算符
-            //Console.WriteLine("请输入成绩");
-            //int score = int.Parse(Console.ReadLine());
+            Console.WriteLine("请输入成绩");
+            int score = int.Parse(Console.ReadLine());
             //string succ = score >= 60 ? "及格" : "不及格";//三元运算符
             //Console.WriteLine(succ);
+            if (score >= 60&&score<=100)
+            {
+                Console.WriteLine("合格");
+            }else if (score < 60)
+            {
+                Console.WriteLine("不合格");
+
+            }
+            else
+            {
+                Console.WriteLine("输入有误");
+            }
             #endregion
             #region 隐式转换
             //string a;
@@ -55,19 +68,19 @@ namespace ConsoleApplication2
             //int h = Convert.ToInt32(g);  //这个方法可以很多类型转换
             #endregion
             #region 类型转换
-            string s1 = "123.9999";
-            string s2 = "908";
-           // int s3 = int.Parse(s1);
-            double s4 = Convert.ToDouble(s2);
-            float s5 = Convert.ToSingle(s1);
-            Console.WriteLine("{0}---{1}---", s4,s5);
-            int k = 12;
-            double d = 12.56;
-            string k1 = k.ToString();
-            string d1 = Convert.ToString(d);
-            Console.WriteLine("{0}----{1}", k1, d1);
+            // string s1 = "123.9999";
+            // string s2 = "908";
+            //// int s3 = int.Parse(s1);
+            // double s4 = Convert.ToDouble(s2);
+            // float s5 = Convert.ToSingle(s1);
+            // Console.WriteLine("{0}---{1}---", s4,s5);
+            // int k = 12;
+            // double d = 12.56;
+            // string k1 = k.ToString();
+            // string d1 = Convert.ToString(d);
+            // Console.WriteLine("{0}----{1}", k1, d1);
+            // #endregion
             #endregion
-          
         }
     }
 }
