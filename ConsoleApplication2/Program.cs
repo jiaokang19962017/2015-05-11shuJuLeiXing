@@ -42,16 +42,31 @@ namespace ConsoleApplication2
             //Console.WriteLine(y);
             #endregion
             #region 显式转换
-            int a = 1;
-            double b = 3.14159;
-            int c = (int)(a + b);  //数据类型转换  显式转换
-            Console.WriteLine(c);
-            int d = 987;
-            string e = d.ToString();//ToString()方法
-            Console.WriteLine(e);
-            #endregion
-           
+            //int a = 1;
+            //double b = 3.14159;
+            //int c = (int)(a + b);  //数据类型转换  显式转换
+            //Console.WriteLine(c);
+            //int d = 987;
+            //string e = d.ToString();//ToString()方法
+            //Console.WriteLine(e);
 
+            // int.Parse();
+            // string g = "12345";
+            //int h = Convert.ToInt32(g);  //这个方法可以很多类型转换
+            #endregion
+            #region 类型转换
+            string s1 = "123";
+            string s2 = "90.8";
+            int s3 = int.Parse(s1);
+            double s4 = Convert.ToDouble(s2);
+            Console.WriteLine("{0}---{1}", s3, s4);
+            int k = 12;
+            double d = 12.56;
+            string k1 = k.ToString();
+            string d1 = Convert.ToString(d);
+            Console.WriteLine("{0}----{1}", k1, d1);
+            #endregion
+          
         }
     }
 }
