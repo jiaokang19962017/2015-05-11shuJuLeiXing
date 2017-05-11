@@ -15,6 +15,10 @@ namespace ConsoleApplication1
             decimal de = 1.2m;
             char c = 'w';
             char c1 = '我';  //char可以存储一个英文字符,一个中文字符
+            int a = 2;
+            char b = 'a';
+            double x = 2.1234;
+            int u, v = 100, w;//定义uvw为整形变量,把v的初始值设为100;
         }
     }
 }
