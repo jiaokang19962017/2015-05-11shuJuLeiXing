@@ -10,9 +10,11 @@ namespace ConsoleApplication2
     {
         static void Main(string[] args)
         {
-            int num = 1;
-            Console.WriteLine(num++);//num++为1
-            Console.WriteLine(++num);//++num为3
+            int i = 1;
+            int a = i++;
+            int b = ++i;
+            Console.WriteLine(a);//num++为1
+            Console.WriteLine(b);//++num为3
         }
     }
 }
